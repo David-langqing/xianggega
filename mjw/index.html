@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css"></link>
+</head>
+
+<body>
+    <!-- 顶边栏 -->
+    <div class="topSide">
+        <div class="topbox">
+            <span>亲，欢迎来到乡旮旯商城!</span>
+            <div class="topLogin">
+                <a href="#">登录</a>
+                <span>|</span>
+                <a href="#">免费注册</a>
+            </div>
+            <div class="topNav">
+                <a href="#">登陆</a>
+                <a href="#">注册</a>
+                <a href="#">我的订单</a>
+                <a href="#">手机商城</a>
+                <a href="#">储值卡</a>
+                <a href="#">礼品卷入口</a>
+                <a href="#">联系客服</a>
+                <a href="#">商家登陆</a>
+            </div>
+        </div>
+    </div>
+    <!--头部和搜索框-->
+    <div class="header">
+        <div class="headerbox">
+            <!-- logo -->
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo.gif">
+                </a>
+            </div>
+            <!-- 搜索框 -->
+            <div class="searh">
+                <form>
+                    <input class="inp1" type="text" name="key" placeholder="请输入关键字">
+                    <input class="inp2" type="submit" value="搜索">
+                </form>
+                <div class="searhHot">
+                    <a href="#" title="军曼火鸡" class="ch">军曼火鸡</a>
+                    <a href="#" title="火鸡白条">火鸡白条</a>
+                    <a href="#" title="火鸡熟食" class="ch">火鸡熟食</a>
+                    <a href="#" title="火鸡蛋" class="ch">火鸡蛋</a>
+                    <a href="#" title="江苏特产">江苏特产</a>
+                </div>
+            </div>
+            <!-- 购物车 -->
+            <div class="cart">
+                <a href="#">
+                    <div class="cartbox">
+                        <em></em>
+                        <span>我的购物车</span>
+                        <i id="cartHero">0</i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--导航栏-->
+    <div class="nav">
+        <div class="navbox">
+            <div class="allnav">
+                <div class="allname" id="allname">
+                    <i></i>
+                    <span>精选商品分类</span>
+                </div>
+                <ul class="leftnav" id="leftnav" style="display: block;">
+                    <li>
+                        <div class="mbig left">
+                            <span>
+                                <a href="#">其它分类</a>
+                            </span>
+                            <p></p>
+                        </div>
+                        <em>&gt;</em>
+                        <div class="mshow left"></div>
+                    </li>
+                    <li>
+                        <div class="mbig left">
+                            <span>
+                                <a href="#">三产融合</a>
+                            </span>
+                            <p>
+                                <a href="#">火鸡熟食</a>
+                                <a href="#">火鸡蛋</a>
+                            </p>
+                        </div>
+                        <em class="left">&gt;</em>
+                        <div class="mshow">
+                            <div class="mbox left">
+                                <div class="left" id="ml">
+                                    <a href="#">军曼火鸡</a>：</div>
+                                <div class="left" id="mr">
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="火鸡熟食">火鸡熟食</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="火鸡蛋">火鸡蛋</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="火鸡生鲜">火鸡生鲜</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="野鸭">野鸭</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="五谷杂粮">五谷杂粮</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="火鸡白条">火鸡白条</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="休闲食品">休闲食品</a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="mbox left">
+                                <div class="left" id="ml">
+                                    <a href="#">建湖特产</a>：</div>
+                                <div class="left" id="mr">
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="弘森农林">弘森农林</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="大地禾农业">大地禾农业</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="东盛源">东盛源</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="三虹有机稻米">三虹有机稻米</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="新阳农业">新阳农业</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="润谷农业">润谷农业</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="自然天成">自然天成</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="以勇葡萄">以勇葡萄</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="香香水果">香香水果</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="中农网购">中农网购</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="黄埔农业">黄埔农业</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="其他品牌">其他品牌</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="军曼农业">军曼农业</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="弘森农林公司">弘森农林公司</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="裕丰禽业有限公司">裕丰禽业有限公司</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="几百粒">几百粒</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="大成有机食品">大成有机食品</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="mbig left">
+                            <span>
+                                <a href="#">粮油副食</a>
+                            </span>
+                            <p>
+                                <a href="#">速食罐头</a>
+                                <a href="#">菜籽油</a>
+                                <a href="#">有机杂粮</a>
+                            </p>
+                        </div>
+                        <em class="left">&gt;</em>
+
+                        <div class="mshow">
+                            <div class="mbox left">
+                                <div class="left" id="ml">
+                                    <a href="#">方便速食</a>：</div>
+                                <div class="left" id="mr">
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="速食罐头">速食罐头</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="mbox left">
+                                <div class="left" id="ml">
+                                    <a href="#">何老大</a>：</div>
+                                <div class="left" id="mr"></div>
+                            </div>
+                            <div class="mbox left">
+                                <div class="left" id="ml">
+                                    <a href="#">食用油</a>：</div>
+                                <div class="left" id="mr">
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="菜籽油">菜籽油</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="花生油">花生油</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="mbox left">
+                                <div class="left" id="ml">
+                                    <a href="?m=goods&amp;cid=39">米面杂粮</a>：</div>
+                                <div class="left" id="mr">
+                                    <span>
+                                        <i>|</i>
+                                        <a href="index.php?m=goods&amp;cid=48" title="豆类原料">豆类原料</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="index.php?m=goods&amp;cid=47" title="五谷杂粮">五谷杂粮</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="index.php?m=goods&amp;cid=46" title="有机杂粮">有机杂粮</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+
+                        <div class="mbig left">
+                            <span>
+                                <a href="#">滋补养生</a>
+                            </span>
+                            <p>
+                                <a href="#">正品健材</a>
+                                <a href="#">参茸滋补</a>
+                                <a href="#">茶类</a>
+                                <a href="#">谷物麦片</a>
+                            </p>
+                        </div>
+                        <em class="left">&gt;</em>
+                        </dt>
+                        <div class="mshow">
+                            <div class="mbox left">
+                                <div class="left" id="ml">
+                                    <a href="#">滋补养生</a>：</div>
+                                <div class="left" id="mr">
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="正品健材">正品健材</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="参茸滋补">参茸滋补</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="mbox left">
+                                <div class="left" id="ml">
+                                    <a href="#">健康茶饮</a>：</div>
+                                <div class="left" id="mr">
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="茶类">茶类</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="山楂片">山楂片</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="mbox left">
+                                <div class="left" id="ml">
+                                    <a href="#">阿胶固元</a>：</div>
+                                <div class="left" id="mr">
+                                </div>
+                            </div>
+                            <div class="mbox left">
+                                <div class="left" id="ml">
+                                    <a href="#">早餐谷物</a>：</div>
+                                <div class="left" id="mr">
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="谷物麦片">谷物麦片</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="mbig left">
+                            <span>
+                                <a href="#">果蔬鲜生</a>
+                            </span>
+                            <p>
+                                <a href="#">其他蛋类</a>
+                                <a href="#">鸭蛋</a>
+                                <a href="#">鸡蛋</a>
+                                <a href="#">贝类</a>
+                                <a href="#">鱼类</a>
+                                <a href="#">虾类</a>
+                            </p>
+                        </div>
+                        <em class="left">&gt;</em>
+                        <div class="mshow">
+                            <div class="mbox left">
+                                <div class="left" id="ml">
+                                    <a href="#">地方禽蛋</a>：</div>
+                                <div class="left" id="mr">
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="其他蛋类">其他蛋类</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="鸭蛋">鸭蛋</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="鸡蛋">鸡蛋</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="mbox left">
+                                <div class="left" id="ml">
+                                    <a href="#">海鲜水产</a>：</div>
+                                <div class="left" id="mr">
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="贝类">贝类</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="鱼类">鱼类</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="虾类">虾类</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="mbig left">
+                            <span>
+                                <a href="#">手工制品</a>
+                            </span>
+                            <p>
+                                <a href="#">雕塑陶艺</a>
+                                <a href="#">民间工艺</a>
+                                <a href="#">传统手工</a>
+                            </p>
+                        </div>
+                        <em class="left">&gt;</em>
+                        <div class="mshow">
+                            <div class="mbox left">
+                                <div class="left" id="ml">
+                                    <a href="#">工艺制品</a>：</div>
+                                <div class="left" id="mr">
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="雕塑陶艺">雕塑陶艺</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="民间工艺">民间工艺</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="传统手工">传统手工</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="mbig left">
+                            <span>
+                                <a href="#">美食特产</a>
+                            </span>
+                            <p>
+                                <a href="#">牛奶</a>
+                                <a href="#">麦片</a>
+                                <a href="#">龙虾</a>
+                                <a href="#">大闸蟹</a>
+                                <a href="#">小米</a>
+                                <a href="#">大米</a>
+                            </p>
+                        </div>
+                        <em>&gt;</em>
+                        <div class="mshow">
+                            <div class="mbox left">
+                                <div class="left" id="ml">
+                                    <a href="#">零食</a>：</div>
+                                <div class="left" id="mr">
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="咖啡">咖啡</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="牛奶">牛奶</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="麦片">麦片</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="mbox left">
+                                <div class="left" id="ml">
+                                    <a href="#">生鲜</a>：</div>
+                                <div class="left" id="mr">
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="龙虾">龙虾</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="大闸蟹">大闸蟹</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="mbox left">
+                                <div class="left" id="ml">
+                                    <a href="#">美食</a>：</div>
+                                <div class="left" id="mr">
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="小米">小米</a>
+                                    </span>
+                                    <span>
+                                        <i>|</i>
+                                        <a href="#" title="大米">大米</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+
+                </ul>
+            </div>
+            <div class="navlist">
+                <a class="header" href="#">首页</a>
+                <a class="header" href="#" title="建湖特产" target="_blank">建湖特产</a>
+                <a class="header" href="#" title="美食中国" target="_blank">美食中国</a>
+                <a class="header" href="#" title="乡约社区" target="_blank">乡约社区</a>
+                <a class="header" href="#" title="军曼农业" target="_blank">军曼农业</a>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <ul class="spdcenter">
+            <li>
+                <a class="spda1"></a>
+            </li>
+            <li>
+                <a class="spda2"></a>
+            </li>
+            <h4>
+                <span id="s1" class="ch"></span>
+                <span id="s2"></span>
+            </h4>
+        </ul>
+        <div class="bannerMain">
+            <div class="mbl">
+                <div class="mLogin">
+                    <div class="img">
+                        <img src="img/avatar.png">
+                    </div>
+                    <div class="con">
+                        <span>Hi,你好</span>
+                        <p>
+                            <a href="#">登陆</a>
+                            <a href="#">注册</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="mbltab">
+                    <div class="mname">
+                        <a href="#" class="ch">商城动态</a>
+                        <a href="3">招商入住</a>
+                    </div>
+                    <div class="con">
+                        <div class="con1">
+                            <a href="#">国庆期间支票收取业务暂停</a>
+                            <a href="#">顺丰优选运费收取规则变更...</a>
+                        </div>
+                        <div class="con1 apply_img">
+                            <div class="img">
+                                <a href="#">
+                                    <img src="img/apply_shop.png">
+                                </a>
+                            </div>
+                            <div class="sw">
+                                <a href="#">查看开店协议</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mainwrap"></div>
+    <div class="serverwrap">
+        <div class="server">
+            <span class="sc sc1">正品保证</span>
+            <span class="sc sc2">无忧退换</span>
+            <span class="sc sc3">客服服务</span>
+            <span class="sc sc4">支付保障</span>
+        </div>
+    </div>
+    <div class="footwrap">
+        <div class="footer">
+            <div class="fbox">
+                <div class="fhelp">
+                    <dl>
+                        <dt>使用帮助</dt>
+                        <dd>
+                            <a href="#" target="_blank">关于我们</a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank">联系我们</a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank">用户协议</a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank">联系客服</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>个人用户</dt>
+                        <dd>
+                            <a href="#" target="_blank">帮助中心</a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank">免责条款</a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank">售后服务</a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank">常见问题</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>商家服务</dt>
+                        <dd>
+                            <a href="#" target="_blank">商家服务</a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank">入住协议</a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank">服务配送</a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank">联系方式</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>服务保障</dt>
+                        <dd>
+                            <a href="#" target="_blank">在线支付</a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank">公司转账</a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank">配送服务</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>售后服务</dt>
+                        <dd>
+                            <a href="#" target="_blank">价格保护</a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank">返修/退换货</a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank">取消订单</a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank">退款说明</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="fewm">
+                    <span>关注二维码</span>
+                    <p>
+                        <img src="img/ewm.png">
+                    </p>
+                </div>
+                <div class="fus">
+                    <p class="fname">全国统一热线</p>
+                    <p class="fmobile">400-020-1999</p>
+                    <p class="fservice">服务时间：9:00-21:00</p>
+                    <p class="fservice">客服邮箱：286277666@qq.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottomwrap">
+        <div class="bottom">
+            <div class="copyright">
+                Copyright © 2017 All rights reserved. ICP备案：苏ICP备15023721号-3
+                <a href="#" target="_blank">增值电信业务经营许可证：苏B2-20160587</a>
+                <a href="#" target="_blank" style="color:red;">[知识产权举报]</a>
+            </div>
+            <p style="text-align: center">
+                <a href="#" target="_blank">
+                    <img src="img/rz.png">
+                </a>
+                <a href="#" target="_blank">
+                    <img style="width:32px; height: 45px" src="img/ebsIcon.png">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="img/xfs.png" title="" alt="" width="32" height="45" border="0" style="border-width:0px;border:hidden; border:none;">
+                </a>
+                <span id="cnzz_stat_icon_1255306595">
+                    <a href="" target="_blank" title="站长统计">
+                        <img border="0" hspace="0" vspace="0" src="img/pic1.gif">
+                    </a>
+                </span>
+            </p>
+        </div>
+        <div class="rightSide">
+            <div class="rmenu">
+                <div class="rtr">
+                    <div class="rcart">
+                        <i></i>
+                        <p>购物车</p>
+                        <span>0</span>
+                    </div>
+                    <div class="ricon ricon1">
+                        <span>&nbsp;</span>
+                    </div>
+                    <div class="ricon ricon2" >
+                        <span>&nbsp;</span>
+                    </div>
+                </div>
+                <div class="rtop">
+                    <a>顶部</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript" src="js/main.js"></script>
+<script src="js/pool.js"></script>
